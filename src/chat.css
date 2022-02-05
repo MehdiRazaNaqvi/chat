@@ -1,0 +1,62 @@
+.line{
+  
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 7px;
+  
+  } 
+  
+
+
+.div0{
+width: 100vw;
+text-align: center;
+  }
+  
+
+
+  .btn{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    margin-top: 7vh;
+
+  }
+
+
+.f{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 7vh;
+    
+  }
+
+   
+  .roundimg{
+    height: 60px;
+    width: 60px;
+    object-fit:contain;
+    border-radius: 50%;
+   
+  
+  } 
+  
+  hr{
+    width: 70%;
+  }
+
+
+  .rounddiv {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(213, 213, 213);
+    border: 0.15rem solid rgb(55, 255, 65);
+    border-style: outset;
+  
+  
+  } 
