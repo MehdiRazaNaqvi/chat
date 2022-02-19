@@ -27,13 +27,7 @@ text-align: center;
   }
 
 
-.f{
-    display: inline-flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 7vh;
-    
-  }
+  
 
    
   .roundimg{
@@ -60,3 +54,26 @@ text-align: center;
   
   
   } 
+
+  li{
+    /* background-color: red; */
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom :20%;
+    margin-left: 20%;
+
+  }
+  .last{
+    display: flex;
+    justify-content: flex-start;
+  }
+ 
+  #chatmsg{
+    padding: 10px;
+   
+    font-weight: 100;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10%;
+    width: auto;
+    
+  }

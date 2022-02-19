@@ -7,7 +7,7 @@ import "../App.css";
 import svg from "../pics/undraw_texting_re_l11n.svg"
 
 import { useNavigate } from "react-router-dom";
-
+import svgsmall from "../pics/bt.svg"
 
 
 
@@ -20,6 +20,7 @@ const App = (props) => {
 
   let navigate = useNavigate();
 
+
   return (
 
     <div>
@@ -27,6 +28,9 @@ const App = (props) => {
       <h1>
         Home
       </h1>
+
+
+
 
       <hr />
       <div className="span0" >
@@ -41,7 +45,9 @@ const App = (props) => {
 
         </div>
 
-
+        <div className="small" >
+          <img className="svg2" src={svgsmall} alt="" />
+        </div>
 
 
         <div className="mainpage" >
@@ -74,9 +80,8 @@ const mapStateToProps = (state) => ({
   users: state.users
 
 
-
-
 })
+
 
 const mapDispatchToProps = (dispatch) => ({
   set_data: (data) => dispatch(set_data(data)),

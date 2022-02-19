@@ -11,7 +11,7 @@ const router = () => {
                 <Router>
                     <Routes>
                         <Route exact path = "/" element={<App/>} />
-                        <Route path = "/chat" element={<Chat/>} />
+                        <Route path = "/ch" element={<Chat/>} />
                         <Route path = "*" element={<App/>} />
                     </Routes>
                 </Router>

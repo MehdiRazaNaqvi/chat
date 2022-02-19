@@ -71,7 +71,6 @@ const google_login = (navigate) => {
   
   return (dispatch) => {
     
-    console.log("haan ab chalrha")
 
     const provider = new GoogleAuthProvider();
 
@@ -92,7 +91,7 @@ const google_login = (navigate) => {
 
         writeUserData(user_data.uid, user_data.name, user_data.email, user_data.photo);
         dispatch({ type: "setuser", payload: user_data })
-        navigate("/chat");
+        navigate("/ch");
        
 
 
